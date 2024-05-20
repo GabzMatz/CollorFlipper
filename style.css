@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: "Roboto", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+body{
+    height: 100vh;
+    color: red;
+    background-color: red;
+}
+
+nav{
+    color: black;
+    box-sizing: border-box;
+    font-size: 14px;
+    display: flex;
+    padding: 2rem;
+    justify-content: space-evenly;
+    background-color: white;
+}
+#namePage{
+    font-weight: 400;
+    color: rgb(98, 98, 212);
+}
+
+#container{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#container h1{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.822);
+    color: white;
+    padding: 1.2rem;
+    border-radius: 1rem;
+    max-width: 90vh;
+}
+#container button{
+    margin-top: 2rem;
+    border: 1px solid black;
+    background-color: transparent;
+    font-size: 1.3rem;
+    padding: 1rem;
+    border-radius: 0.6rem;
+    cursor: pointer;
+}
+#container button:hover{
+    background-color: rgba(0, 0, 0, 0.822);
+    color:white;
+
+}
